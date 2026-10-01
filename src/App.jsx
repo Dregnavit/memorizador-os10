@@ -118,10 +118,19 @@ function ReorderMode({ c, done }) {
   </>);
 }
 
-function Exam({ onGrade, onExit }) {
+function Exam({ list, onGrade, onExit }) {
   const [n, setN] = useState(0), [score, setScore] = useState(null);
-  const { c, Mode } = useMemo(() => ({ c: CARDS[Math.floor(Math.random() * CARDS.length)], Mode: [ClozeMode, TypingMode, ReorderMode][Math.floor(Math.random() * 3)] }), [n]);
+  
+  // Usamos la lista de la categoría si existe, de lo contrario todo el mazo
+  const pool = list && list.length > 0 ? list : CARDS;
+  
+  const { c, Mode } = useMemo(() => ({ 
+    c: pool[Math.floor(Math.random() * pool.length)], 
+    Mode: [ClozeMode, TypingMode, ReorderMode][Math.floor(Math.random() * 3)] 
+  }), [n, pool]);
+  
   const done = (s) => { setScore(s); onGrade(c.id, s >= 0.95 ? 5 : s >= 0.8 ? 4 : s >= 0.5 ? 3 : 1); };
+  
   return (
     <div className="card">
       <small>{TEMARIO[c.cat].nombre || TEMARIO[c.cat].categoria}</small>
@@ -141,7 +150,7 @@ const THEMES = [
   ["dark", "Oscuro"], 
   ["light", "Claro"], 
   ["medieval", "Medieval"], 
-  ["shade", "Shade Sanctuary"]
+  ["shade", "Black & Violet"]
 ];
 
 export default function App() {
@@ -181,11 +190,14 @@ export default function App() {
             {TEMARIO.map((cat, ci) => {
               const list = CARDS.filter((c) => c.cat === ci), seen = list.filter((c) => prog[c.id]).length;
               return (
-                <div className="card" key={ci} onClick={() => setView({ name: "study", list: queue(list).length ? queue(list) : list })}>
+                <div className="card" key={ci}>
                   <h3>{cat.nombre || cat.categoria}</h3>
                   <SunArc value={avg(list)} />
                   <p>{seen}/{list.length} estudiadas</p>
-                  <button onClick={(e) => { e.stopPropagation(); setView({ name: "study", list: queue(list).length ? queue(list) : list }); }}>Estudiar</button>
+                  <div className="row" style={{ justifyContent: 'center', marginTop: 'auto' }}>
+                    <button onClick={() => setView({ name: "study", list: queue(list).length ? queue(list) : list })}>Estudiar</button>
+                    <button className="theme-btn" onClick={() => setView({ name: "exam", list: list })}>Examinar</button>
+                  </div>
                 </div>
               );
             })}
@@ -193,7 +205,7 @@ export default function App() {
         </main>
       )}
       {view.name === "study" && <main><Study list={view.list} onGrade={grade} onExit={() => setView({ name: "home" })} /></main>}
-      {view.name === "exam" && <main><Exam onGrade={grade} onExit={() => setView({ name: "home" })} /></main>}
+      {view.name === "exam" && <main><Exam list={view.list} onGrade={grade} onExit={() => setView({ name: "home" })} /></main>}
     </div>
   );
 }
@@ -239,6 +251,7 @@ const CSS = `
   background-size: 20px 20px;
 }
 
+/* TEMA BLACK & VIOLET */
 .app.shade {
   --bg: #0D0D12; --fg: #F1F5F9; --card: #15151E; --card-hover: #1A1A26; --line: #2D234A;
   --sun: #A855F7; --accent: #7E22CE; --accent-text: #FFFFFF;
@@ -264,7 +277,7 @@ main { max-width: 960px; margin: 0 auto; animation: fadeIn 0.4s ease; }
   padding: 24px; box-shadow: var(--shadow);
   display: flex; flex-direction: column; gap: 12px;
 }
-.grid .card { cursor: pointer; transition: transform 0.2s, background 0.2s, border-color 0.2s, box-shadow 0.2s; }
+.grid .card { transition: transform 0.2s, background 0.2s, border-color 0.2s, box-shadow 0.2s; }
 .grid .card:hover { background: var(--card-hover); transform: translateY(-4px); border-color: var(--sun); box-shadow: 0 12px 30px rgba(0,0,0,0.15); }
 .center { text-align: center; align-items: center; }
 
