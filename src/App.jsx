@@ -1,21 +1,13 @@
 import { useState, useMemo, useEffect } from "react";
 import { TEMARIO } from "./temario.js";
 
-/* ---------- Datos y SRS ---------- */
-const CARDS = TEMARIO.flatMap((c, ci) => c.preguntas.map((p, i) => ({ ...p, id: `${ci}-${i}`, cat: ci })));
-const DAY = 864e5;
-const norm = (w) => w.toLowerCase().replace(/[.,;:()¿?¡!]/g, "");
-const words = (t) => t.split(/\s+/).filter(Boolean);
-const shuffle = (a) => { const b = [...a]; for (let i = b.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [b[i], b[j]] = [b[j], b[i]]; } return b; };
+import { buildCards, chooseQuestion, level, nextSRS, norm, shuffle, typingResult, words } from "./study.js";
+import { browserStorage, loadProgress, recordGrade } from "./progress.js";
+import Fundamento from "./Fundamento.jsx";
+import { CORTE_LEGISLATIVO } from "./fuentes.js";
 
-export function nextSRS(s, q) {
-  let { ease = 2.5, interval = 0, reps = 0 } = s || {};
-  if (q < 3) { reps = 0; interval = 1; }
-  else { reps += 1; interval = reps === 1 ? 1 : reps === 2 ? 3 : Math.round(interval * ease); }
-  ease = Math.max(1.3, ease + 0.1 - (5 - q) * (0.08 + (5 - q) * 0.02));
-  return { ease, interval, reps, due: Date.now() + interval * DAY };
-}
-const level = (s) => (!s || !s.reps ? 0 : s.interval < 3 ? 1 : s.interval < 7 ? 2 : s.interval < 21 ? 3 : 4);
+const CARDS = buildCards(TEMARIO);
+const STORAGE = browserStorage();
 
 /* ---------- SunArc ---------- */
 function SunArc({ value }) {
@@ -39,8 +31,9 @@ function Study({ list, onGrade, onExit }) {
   const grade = (g) => { onGrade(c.id, g); setI(i + 1); setStep(1); setShow(false); };
   return (
     <div className="card">
-      <small>{TEMARIO[c.cat].nombre || TEMARIO[c.cat].categoria} · {i + 1}/{list.length} · Paso {step}/4</small>
+      <small>{c.category} · {i + 1}/{list.length} · Paso {step}/4</small>
       <h2>{c.q}</h2>
+      <Fundamento fuentes={c.fuentes} />
       {step === 1 && <p>{c.a}</p>}
       {step === 2 && <p className="mono">{ws.map((w) => w[0] + "_".repeat(w.length - 1)).join(" ")}</p>}
       {step === 3 && (<>
@@ -65,7 +58,7 @@ function Study({ list, onGrade, onExit }) {
 /* ---------- Examinar ---------- */
 function ClozeMode({ c, done }) {
   const ws = useMemo(() => words(c.a), [c]);
-  const hidden = useMemo(() => new Set(shuffle(ws.map((_, i) => i)).slice(0, Math.max(1, Math.round(ws.length * 0.3)))), [ws]);
+  const [hidden] = useState(() => new Set(shuffle(ws.map((_, i) => i)).slice(0, Math.max(1, Math.round(ws.length * 0.3)))));
   const [v, setV] = useState({}), [chk, setChk] = useState(false);
   const ok = (i) => norm(v[i] || "") === norm(ws[i]);
   const check = () => { setChk(true); done([...hidden].filter(ok).length / hidden.size); };
@@ -81,17 +74,9 @@ function ClozeMode({ c, done }) {
 function TypingMode({ c, done }) {
   const [t, setT] = useState(""), [res, setRes] = useState(null);
   const check = () => {
-    const A = words(c.a), B = words(t);
-    const L = Array.from({ length: A.length + 1 }, () => Array(B.length + 1).fill(0));
-    for (let i = 1; i <= A.length; i++) for (let j = 1; j <= B.length; j++)
-      L[i][j] = norm(A[i - 1]) === norm(B[j - 1]) ? L[i - 1][j - 1] + 1 : Math.max(L[i - 1][j], L[i][j - 1]);
-    const hitA = new Set(), hitB = new Set();
-    for (let i = A.length, j = B.length; i > 0 && j > 0;) {
-      if (norm(A[i - 1]) === norm(B[j - 1])) { hitA.add(i - 1); hitB.add(j - 1); i--; j--; }
-      else if (L[i - 1][j] >= L[i][j - 1]) i--; else j--;
-    }
-    setRes({ A, extra: B.filter((_, j) => !hitB.has(j)), hitA });
-    done(L[A.length][B.length] / A.length);
+    const result = typingResult(c.a, t);
+    setRes(result);
+    done(result.score);
   };
   return (<>
     <textarea rows={5} value={t} disabled={!!res} onChange={(e) => setT(e.target.value)} placeholder="Escribe la respuesta de memoria…" />
@@ -105,7 +90,7 @@ function TypingMode({ c, done }) {
 
 function ReorderMode({ c, done }) {
   const ws = useMemo(() => words(c.a), [c]);
-  const chips = useMemo(() => shuffle(ws.map((w, i) => ({ w, i }))), [ws]);
+  const [chips] = useState(() => shuffle(ws.map((w, i) => ({ w, i }))));
   const [pick, setPick] = useState([]), [fin, setFin] = useState(false);
   const add = (ch) => {
     const n = [...pick, ch]; setPick(n);
@@ -119,26 +104,24 @@ function ReorderMode({ c, done }) {
 }
 
 function Exam({ list, onGrade, onExit }) {
+  const pool = list?.length ? list : CARDS;
+  const [selection, setSelection] = useState(() => chooseQuestion(pool));
   const [n, setN] = useState(0), [score, setScore] = useState(null);
-  
-  // Usamos la lista de la categoría si existe, de lo contrario todo el mazo
-  const pool = list && list.length > 0 ? list : CARDS;
-  
-  const { c, Mode } = useMemo(() => ({ 
-    c: pool[Math.floor(Math.random() * pool.length)], 
-    Mode: [ClozeMode, TypingMode, ReorderMode][Math.floor(Math.random() * 3)] 
-  }), [n, pool]);
-  
+  const c = selection.card;
   const done = (s) => { setScore(s); onGrade(c.id, s >= 0.95 ? 5 : s >= 0.8 ? 4 : s >= 0.5 ? 3 : 1); };
-  
+  const next = () => { setScore(null); setN(n + 1); setSelection(chooseQuestion(pool)); };
+
   return (
     <div className="card">
-      <small>{TEMARIO[c.cat].nombre || TEMARIO[c.cat].categoria}</small>
+      <small>{c.category}</small>
       <h2>{c.q}</h2>
-      <Mode key={n} c={c} done={done} />
+      <Fundamento fuentes={c.fuentes} />
+      {selection.mode === 0 && <ClozeMode key={n} c={c} done={done} />}
+      {selection.mode === 1 && <TypingMode key={n} c={c} done={done} />}
+      {selection.mode === 2 && <ReorderMode key={n} c={c} done={done} />}
       {score !== null && <p>Puntaje: {Math.round(score * 100)}%</p>}
       <div className="row">
-        {score !== null && <button onClick={() => { setScore(null); setN(n + 1); }}>Otra pregunta</button>}
+        {score !== null && <button onClick={next}>Otra pregunta</button>}
         <button className="theme-btn" onClick={onExit}>Salir</button>
       </div>
     </div>
@@ -154,15 +137,27 @@ const THEMES = [
 ];
 
 export default function App() {
-  const [theme, setTheme] = useState(() => localStorage.getItem("os10-theme") || "dark");
-  const [prog, setProg] = useState(() => { try { return JSON.parse(localStorage.getItem("os10-srs")) || {}; } catch { return {}; } });
+  const [theme, setTheme] = useState(() => {
+    try { const saved = STORAGE.getItem("os10-theme"); return THEMES.some(([id]) => id === saved) ? saved : "dark"; }
+    catch { return "dark"; }
+  });
+  const [progress, setProgress] = useState(() => loadProgress(STORAGE));
+  const prog = progress.data.cards;
+  const [now, setNow] = useState(() => Date.now());
   const [view, setView] = useState({ name: "home" });
   
-  useEffect(() => localStorage.setItem("os10-theme", theme), [theme]);
-  useEffect(() => localStorage.setItem("os10-srs", JSON.stringify(prog)), [prog]);
+  useEffect(() => { try { STORAGE.setItem("os10-theme", theme); } catch { /* Theme is optional. */ } }, [theme]);
+  useEffect(() => {
+    const timer = setInterval(() => setNow(Date.now()), 60000);
+    return () => clearInterval(timer);
+  }, []);
   
-  const grade = (id, g) => setProg((p) => ({ ...p, [id]: nextSRS(p[id], g) }));
-  const now = Date.now();
+  const grade = (id, g) => {
+    const time = Date.now();
+    const schedule = nextSRS(prog[id], g, time);
+    setProgress(recordGrade(progress, id, schedule, STORAGE));
+    setNow(time);
+  };
   const due = CARDS.filter((c) => prog[c.id] && prog[c.id].due <= now);
   const avg = (list) => (list.length ? list.reduce((s, c) => s + level(prog[c.id]), 0) / list.length : 0);
   const queue = (list) => [...list.filter((c) => prog[c.id] && prog[c.id].due <= now), ...list.filter((c) => !prog[c.id])];
@@ -173,9 +168,10 @@ export default function App() {
     <div className={`app ${theme}`}>
       <style>{CSS}</style>
       <header>
-        <h1>Memorizador OS10</h1>
+        <div><h1>Memorizador OS10</h1><small>Revisión legislativa: {CORTE_LEGISLATIVO}</small></div>
         <button className="theme-btn" onClick={nextTheme}>Tema: {THEMES.find((t) => t[0] === theme)[1]}</button>
       </header>
+      {progress.error && <p role="alert">{progress.error}</p>}
       {view.name === "home" && (
         <main>
           <div className="card center">
@@ -187,10 +183,10 @@ export default function App() {
             </div>
           </div>
           <div className="grid">
-            {TEMARIO.map((cat, ci) => {
-              const list = CARDS.filter((c) => c.cat === ci), seen = list.filter((c) => prog[c.id]).length;
+            {TEMARIO.map((cat) => {
+              const list = CARDS.filter((c) => c.cat === cat.id), seen = list.filter((c) => prog[c.id]).length;
               return (
-                <div className="card" key={ci}>
+                <div className="card" key={cat.id}>
                   <h3>{cat.nombre || cat.categoria}</h3>
                   <SunArc value={avg(list)} />
                   <p>{seen}/{list.length} estudiadas</p>
@@ -218,6 +214,11 @@ const CSS = `
   src: url('/CloisterBlack.ttf') format('truetype');
   font-weight: normal; font-style: normal;
 }
+
+.fundamento { margin: 1rem 0; font-size: 0.9rem; }
+.fundamento summary { cursor: pointer; }
+.fundamento a { color: var(--accent); overflow-wrap: anywhere; }
+.fundamento li { margin: 0.5rem 0; }
 
 /* Transiciones globales */
 * { transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease; }

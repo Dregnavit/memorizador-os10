@@ -1,0 +1,1 @@
+export const CORTE_LEGISLATIVO = "2026-10-26";

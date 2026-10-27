@@ -1,0 +1,46 @@
+Código del Trabajo
+Consultado: 2026-10-26. Corte: 2026-10-26.
+Versión seleccionada: {'inicio_vigencia': '2026-07-23', 'fin_vigencia': '2027-03-14'}
+URL: https://www.bcn.cl/leychile/navegar?idNorma=207436&idVersion=2026-10-26
+
+Extractos del texto oficial; notas marginales de modificaciones omitidas en esta transcripción. La versión de consulta contiene las notas.
+
+Artículo 7
+Art. 7.o Contrato individual de trabajo es una convención por la cual el empleador y el trabajador se obligan recíprocamente, éste a prestar servicios personales bajo dependencia y subordinación del primero, y aquél a pagar por estos servicios una remuneración determinada.
+
+Artículo 9
+Art. 9.o El contrato de trabajo es consensual; deberá constar por escrito en los plazos a que se refiere el inciso siguiente, y firmarse por ambas partes en dos ejemplares, quedando uno en poder de cada contratante.
+El empleador que no haga constar por escrito el contrato dentro del plazo de quince días de incorporado el trabajador, o de cinco días si se trata de contratos por obra, trabajo o servicio determinado o de duración inferior a treinta días, será sancionado con una multa a beneficio fiscal de una a cinco unidades tributarias mensuales.
+Si el trabajador se negare a firmar, el empleador enviará el contrato a la respectiva Inspección del Trabajo para que ésta requiera la firma. Si el trabajador insistiere en su actitud ante dicha Inspección, podrá ser despedido, sin derecho a indemnización, a menos que pruebe haber sido contratado en condiciones distintas a las consignadas en el documento escrito.
+Si el empleador no hiciere uso del derecho que se le confiere en el inciso anterior, dentro del respectivo plazo que se indica en el inciso segundo, la falta de contrato escrito hará presumir legalmente que son estipulaciones del contrato las que declare el trabajador.
+El empleador, en todo caso, estará obligado a mantener en el lugar de trabajo, o en un lugar fijado con anterioridad y que deberá haber sido autorizado previamente por la Inspección del Trabajo, un ejemplar del contrato, y, en su caso, uno del finiquito en que conste el término de la relación laboral, firmado por las partes.
+Conforme a lo señalado en el inciso anterior, cuando exista la necesidad de centralizar la documentación laboral y previsional, en razón de tener organizado su giro económico en diversos establecimientos, sucursales o lugares de trabajo o por razones de administración, control, operatividad o seguridad o que sus trabajadores presten servicios en instalaciones de terceros, o lugares de difícil ubicación específica, o carentes de condiciones materiales en las cuales mantener adecuadamente la referida documentación, como labores agrícolas, mineras o forestales y de vigilancia entre otras, las empresas podrán solicitar a la Dirección del Trabajo autorización para  centralizar los documentos antes señalados y ofrecer mantener copias digitalizadas de dichos documentos laborales y previsionales. Para estos efectos, el Director del Trabajo, mediante resolución fundada, fijará las condiciones y modalidades para dicha centralización. La Dirección del Trabajo deberá resolver la solicitud de que trata este inciso en un plazo de treinta días, no siendo exigible la obligación establecida en el inciso quinto, en tanto no se notifique dicha respuesta al peticionario.
+La autorización de centralización podrá  extenderse a toda la documentación laboral y previsional que se deriva de las relaciones de trabajo, salvo en lo referido al registro control de asistencia a que se refiere el inciso primero del artículo 33 de este Código.
+
+Artículo 9 BIS
+Artículo 9 bis.- En conformidad a lo dispuesto en el artículo 515, el empleador deberá registrar en el sitio electrónico de la Dirección del Trabajo los contratos de trabajo, dentro de los quince días siguientes a su celebración. Asimismo, deberá registrar las terminaciones de contrato, dentro de los plazos establecidos en los artículos 162 y 163 bis para el envío de las copias de las comunicaciones de terminación de contrato a la Inspección del Trabajo, y dentro de los diez días hábiles siguientes a la separación del trabajador en los casos de los números 1, 2 y 3 del artículo 159.
+En el momento del registro del contrato de trabajo el empleador deberá indicar las estipulaciones pactadas, y al término de los servicios deberá informar la fecha de éste y la causal invocada. Asimismo, deberá registrar la información relativa a la imputación de saldos a que se refiere el artículo 13 de la ley N°19.728, dentro de los cinco días posteriores a la suscripción del respectivo finiquito.
+Esta información será utilizada para el ejercicio de las facultades legales propias de la Dirección del Trabajo, tales como fiscalizaciones, conciliaciones, mediaciones y ratificación de finiquitos. También podrá ser utilizada para fines estadísticos, de estudios y difusión que efectúe el Servicio sobre el cumplimiento de la normativa laboral y de salud y seguridad en el trabajo, sin perjuicio de lo dispuesto en la ley Nº 19.628, sobre protección de la vida privada. Además, la Dirección del Trabajo deberá proporcionar esta información a los tribunales de justicia, previo requerimiento.
+
+Artículo 10
+Art. 10. El contrato de trabajo debe contener, a lo menos, las siguientes estipulaciones:
+1.-  lugar y fecha del contrato;
+2.-  individualización de las partes con indicación de la nacionalidad, domicilio y dirección de correo electrónico de ambas partes, si la tuvieren y fechas de nacimiento e ingreso del trabajador;
+3.-  determinación de la naturaleza de los servicios y del lugar o ciudad en que hayan de prestarse. El contrato podrá señalar dos o más funciones específicas, sean éstas alternativas o complementarias;
+4.-  monto, forma y período de pago de la remuneración acordada;
+5.-  duración y distribución de la jornada de trabajo, salvo que en la empresa existiere el sistema de trabajo por turno, caso en el cual se estará a lo dispuesto en el reglamento interno;
+6.-  plazo del contrato, y
+7.-  demás pactos que acordaren las partes.
+Deberán señalarse también, en su caso, los beneficios adicionales que suministrará el empleador en forma de casa habitación, luz, combustible, alimento u otras prestaciones en especie o servicios.
+Cuando para la contratación de un trabajador se le haga cambiar de domicilio, deberá dejarse testimonio del lugar de su procedencia.
+Si por la naturaleza de los servicios se precisare el desplazamiento del trabajador, se entenderá por lugar de trabajo toda la zona geográfica que comprenda la actividad de la empresa. Esta norma se aplicará especialmente a los viajantes y a los trabajadores de empresas de transportes.
+
+Artículo 420
+Art. 420. Serán de competencia de los Juzgados de Letras del Trabajo:
+a)   las cuestiones suscitadas entre empleadores y trabajadores por aplicación de las normas laborales o derivadas de la interpretación y aplicación de los contratos individuales o colectivos del trabajo o de las convenciones y fallos arbitrales en materia laboral;
+b)   las cuestiones derivadas de la aplicación de las normas sobre organización sindical y negociación colectiva que la ley entrega al conocimiento de los juzgados de letras con competencia en materia del trabajo;
+c)   las cuestiones derivadas de la aplicación de las normas de previsión o de seguridad social, planteadas por pensionados, trabajadores activos o empleadores, salvo en lo referido a la revisión de las resoluciones sobre declaración de invalidez o del pronunciamiento sobre otorgamiento de licencias médicas;
+d)   los juicios en que se demande el cumplimiento de obligaciones que emanen de títulos a los cuales las leyes laborales y de previsión o seguridad social otorguen mérito ejecutivo;
+e)   las reclamaciones que procedan contra resoluciones dictadas por autoridades administrativas en materias laborales, previsionales o de seguridad social;
+f)   los juicios iniciados por el propio trabajador o sus causahabientes, en que se pretenda hacer efectiva la responsabilidad contractual del empleador por los daños producidos como consecuencia de accidentes del trabajo o enfermedades profesionales. Respecto de la responsabilidad extracontractual se seguirán las reglas del artículo 69 de la ley Nº 16.744, y
+g)   todas aquellas materias que las leyes entreguen a juzgados de letras con competencia laboral.

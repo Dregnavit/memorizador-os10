@@ -1,0 +1,13 @@
+Ley 20.477, competencia de tribunales militares
+Consultado: 2026-10-26. Corte: 2026-10-26.
+Versión seleccionada: {'inicio_vigencia': '2016-11-22', 'fin_vigencia': ''}
+URL: https://www.bcn.cl/leychile/navegar?idNorma=1021613&idVersion=2026-10-26
+
+Extractos del texto oficial; notas marginales de modificaciones omitidas en esta transcripción. La versión de consulta contiene las notas.
+
+Artículo 1
+Artículo 1º.- Restricción de la competencia de los tribunales militares. En ningún caso, los civiles y los menores de edad, que revistan la calidad de víctimas o de imputados, estarán sujetos a la competencia de los tribunales militares. Ésta siempre se radicará en los tribunales ordinarios con competencia en materia penal.
+Para estos efectos, se entenderá que civil es una persona que no reviste la calidad de militar, de acuerdo al artículo 6º del Código de Justicia Militar.
+
+Artículo 2
+Artículo 2º.- Tribunal competente en casos de coautoría y coparticipación. En los casos de coautoría y coparticipación de civiles y militares en la comisión de aquellos delitos sujetos a la justicia militar de acuerdo a las normas del Código de Justicia Militar, serán competentes, respecto de los civiles, la Justicia Ordinaria y, respecto de los militares, los Tribunales Militares.

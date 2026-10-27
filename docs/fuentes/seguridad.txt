@@ -1,0 +1,229 @@
+Ley 21.659 sobre Seguridad Privada
+Consultado: 2026-10-26. Corte: 2026-10-26.
+Versión seleccionada: {'inicio_vigencia': '2026-05-28', 'fin_vigencia': '2026-10-31'}
+URL: https://www.bcn.cl/leychile/navegar?idNorma=1202067&idVersion=2026-10-26
+
+Extractos del texto oficial; notas marginales de modificaciones omitidas en esta transcripción. La versión de consulta contiene las notas.
+
+Artículo 1
+Artículo 1.- La presente ley tiene por objeto regular la seguridad privada, entendiéndose por tal el conjunto de actividades o medidas de carácter preventivas, coadyuvantes y complementarias de la seguridad pública, destinadas a la protección de personas, bienes y procesos productivos, desarrolladas en un área determinada y realizadas por personas naturales o jurídicas de derecho privado, debidamente autorizadas en la forma y condiciones que establece esta ley.
+Las personas naturales y jurídicas que presten servicios de seguridad privada quedarán sujetas, en la ejecución material de sus actividades, a las normas e instrucciones que al efecto imparta el Ministerio encargado de la Seguridad Pública, a través de la Subsecretaría de Prevención del Delito, en su calidad de órgano rector en la materia. Asimismo, quedarán sujetas a la autoridad fiscalizadora que corresponde a Carabineros de Chile, sin perjuicio de la autoridad institucional respectiva, tratándose de entidades ubicadas en recintos portuarios, aeropuertos u otros espacios sometidos al control de la autoridad militar, marítima o aeronáutica.
+El personal de la Administración del Estado no podrá realizar actividades de seguridad privada, con excepción de las entidades obligadas de carácter público que deban contar con un sistema de vigilancia privada y lo contraten directamente.
+Para efectos de esta ley se entenderá por Administración del Estado los órganos y servicios señalados en el inciso segundo del artículo 1 de la Ley N° 18.575, Orgánica Constitucional de Bases Generales de la Administración del Estado, cuyo texto refundido, coordinado y sistematizado fue fijado por el decreto con fuerza de ley N° 1, de 2000, del Ministerio Secretaría General de la Presidencia.
+
+Artículo 2
+Artículo 2.- Sin perjuicio de lo dispuesto en el artículo anterior, constituyen especialmente actividades de seguridad privada las siguientes:
+1. La vigilancia, protección y seguridad de establecimientos, sucursales, lugares, faenas y eventos, tanto públicos como privados, así como de las personas o bienes que puedan encontrarse en ellos.
+2. La custodia y el transporte de valores. Se entenderá por valores el dinero en efectivo, los documentos bancarios y mercantiles de normal uso en el sistema financiero, los metales preciosos sean en barra, amonedados o elaborados, las obras de arte y, en general, cualquier otro bien que, atendidas sus características, haga aconsejable su conservación, custodia o traslado bajo medidas especiales de seguridad.
+3. El depósito, custodia, transporte y distribución de objetos que por su peligrosidad precisen de vigilancia y protección especial. El detalle y características de esta actividad serán regulados en el reglamento de esta ley.
+4. Cualquier otra actividad o medida de carácter preventivo destinada a la protección de personas, bienes y procesos productivos, en los términos del artículo 1.
+
+Artículo 3
+Artículo 3.- Además, se considerarán actividades de seguridad privada las siguientes:
+1. La instalación y mantenimiento de aparatos, equipos, dispositivos, componentes tecnológicos y sistemas de seguridad electrónica conectados a centrales receptoras de alarmas, centros de control o de videovigilancia, así como la operación de dichas centrales y centros.
+2. La asesoría en materias de seguridad. Se entenderá para estos efectos por tal aquellas labores que consistan en dar consejo o ilustrar a una persona o entidad, con el propósito de ejecutar el buen funcionamiento de una instalación, tanto en sus bienes como en los individuos que en ella se encuentren, evitando que ésta falle, se frustre o sea violentada.
+3. La formación y capacitación de vigilantes privados, guardias de seguridad y demás personas naturales que desarrollen labores de seguridad privada, de conformidad a esta ley.
+4. La custodia y transporte de carga sobredimensionada, según lo dispuesto en el artículo 63 de la ley N° 18.290, de Tránsito, cuyo texto refundido, coordinado y sistematizado fue fijado por el decreto con fuerza de ley N° 1, de 2007, de los Ministerios de Transportes y Telecomunicaciones, y de Justicia.
+
+Artículo 4
+Artículo 4.- En cumplimiento de su rol preventivo, coadyuvante y complementario de la seguridad pública, las personas naturales y jurídicas que ejerzan actividades de seguridad privada y las entidades obligadas señaladas en el Título II tendrán las siguientes obligaciones:
+1. Observar las normas e instrucciones que al efecto imparta el Ministerio encargado de la Seguridad Pública, a través de la Subsecretaría de Prevención del Delito y la Autoridad Fiscalizadora.
+2. Coordinar sus actividades de seguridad privada con Carabineros de Chile.
+3. Conservar y poner a disposición de las autoridades respectivas todos los antecedentes, instrumentos, efectos y pruebas que obren en su poder y que permitan individualizar a los autores y demás partícipes en hechos que revistan caracteres de delito.
+4. Denunciar todo hecho que revista caracteres de delito, dentro de las 24 horas siguientes al momento en que tomen conocimiento de él, en los términos establecidos en los artículos 173 y siguientes del Código Procesal Penal.
+Asimismo, deberán comunicar a las Fuerzas de Orden y Seguridad Pública cualquier circunstancia o información relevante para la prevención, el mantenimiento o restablecimiento de la seguridad pública.
+5. Respetar y proteger los derechos humanos y las libertades fundamentales, especialmente si se trata de personas en situación de vulnerabilidad, niños, niñas o adolescentes y personas en situación de discapacidad. Ello, en cumplimiento de los tratados internacionales de derechos humanos, ratificados por Chile y que se encuentren vigentes, que prohíben cualquier acto constitutivo de tortura u otros tratos crueles, inhumanos o degradantes.
+
+Artículo 13
+Artículo 13.- Las entidades obligadas deberán contar con un estudio de seguridad vigente autorizado por la Subsecretaría de Prevención del Delito para poder desarrollar sus actividades.
+Sin perjuicio de lo dispuesto en el inciso anterior y lo señalado en el artículo 19, aquellas entidades que se encuentren en funcionamiento con anterioridad a que les sea notificada la resolución exenta que las declare como obligadas podrán seguir desarrollando sus actividades durante el proceso de aprobación del estudio de seguridad y la implementación de las medidas respectivas.
+Para elaborar y presentar la propuesta de estudio de seguridad ante la Subsecretaría de Prevención del Delito, la entidad respectiva tendrá el plazo de sesenta días hábiles contado desde que se notifique la resolución a que hace referencia el inciso final del artículo 7 o aquella que rechaza los recursos presentados, según sea el caso. En el cumplimiento de esta obligación, la entidad obligada podrá contratar el servicio de asesoría de cualquier empresa de seguridad que se encuentre autorizada de conformidad con las normas de la presente ley.
+
+Artículo 15
+Artículo 15.- Recibido el estudio de seguridad de la entidad obligada, la Subsecretaría de Prevención del Delito requerirá a la autoridad fiscalizadora un informe técnico sobre éste para que manifieste su opinión. El informe deberá ser remitido a dicha Subsecretaría en el plazo de diez días, el que podrá ser prorrogado hasta por cinco días.
+Una vez recibido el informe técnico de la autoridad fiscalizadora, la Subsecretaría de Prevención del Delito deberá aprobar o disponer las modificaciones que correspondan, en un sólo acto, dentro del plazo de treinta días, mediante resolución fundada, y notificar a la respectiva entidad. En este último caso, la entidad obligada deberá efectuar las correcciones que se indiquen dentro del plazo de diez días, el que podrá ser prorrogado hasta por el mismo período, previa solicitud de la entidad interesada.
+Con todo, transcurrido un plazo de sesenta días sin que dicha Subsecretaría se pronuncie, se entenderá aprobado el estudio de seguridad en los términos propuestos por la entidad obligada.
+En contra de la resolución que dispone modificaciones al estudio de seguridad propuesto, procederán los recursos de reposición y jerárquico, en la forma prevista por la ley N° 19.880.
+Si la entidad obligada no realiza las modificaciones, o si a juicio de la Subsecretaría de Prevención del Delito éstas no son las requeridas, se rechazará la propuesta de estudio de seguridad. En tal caso la entidad deberá presentar una nueva propuesta que cumpla con el procedimiento y los plazos de este párrafo.
+
+Artículo 17
+Artículo 17.- La vigencia del estudio de seguridad será de cuatro años, salvo que dentro de sus medidas se contemple un sistema de vigilancia privada, en cuyo caso la vigencia será de dos años.
+La renovación del estudio de seguridad se someterá al mismo procedimiento señalado en los artículos 13 y siguientes.
+Al menos tres meses antes del vencimiento de la vigencia del estudio de seguridad, la entidad obligada deberá presentar uno nuevo o solicitar que se prorrogue su vigencia.
+No obstante, cualquier modificación que incida en el estudio de seguridad deberá ser presentada a la Subsecretaría de Prevención del Delito, se someterá al mismo procedimiento señalado en los artículos 13 y siguientes y no podrá implementarse sino luego de su aprobación. El estudio vigente mantendrá su validez si la demora en resolver dentro de los plazos establecidos es imputable a la Subsecretaría de Prevención del Delito.
+
+Artículo 25
+Artículo 25.- El vigilante privado será quien realice labores de protección a personas y bienes, dentro de un recinto o área determinada, autorizado para portar armas, credencial y uniforme.
+El vigilante privado tendrá la calidad de trabajador dependiente de la entidad en la que presta servicios o de la empresa de seguridad en el caso del artículo 22 y le serán aplicables las normas del Código del Trabajo.
+Los vigilantes privados, además de los requisitos generales establecidos en el artículo 46, deberán cumplir específicamente con los siguientes:
+1. Haber cumplido con lo establecido en el decreto N° 83, de 2007, del Ministerio de Defensa Nacional, que aprueba Reglamento Complementario de la Ley N° 17.798, sobre Control de Armas y elementos similares, en cuanto al uso de armas de fuego.
+2. Haber aprobado un curso especial de formación y perfeccionamiento en las entidades autorizadas para ello, de conformidad con esta ley y su reglamento. Este último definirá y especificará los contenidos de los cursos de capacitación y la periodicidad en que deben rendirse las actualizaciones.
+En el caso de quienes hayan ejercido funciones de control o fiscalización como integrantes de las Fuerzas Armadas o de Orden y Seguridad Pública, el reglamento de la presente ley establecerá las materias de las cuales se podrán eximir en razón de su conocimiento previo. Lo anterior será sin perjuicio de lo establecido en los numerales 8 y 10 del artículo 46.
+3. No haber sido declarado con invalidez de segunda o de tercera clase por el sistema previsional y de salud de la Caja de Previsión de la Defensa Nacional o de la Dirección de Previsión de Carabineros de Chile, según corresponda.
+Los requisitos anteriores deberán ser acreditados mediante documentos idóneos para tal efecto.
+
+Artículo 26
+Artículo 26.- Los vigilantes privados deberán portar armas de fuego en el ejercicio de sus funciones, exclusivamente, mientras dure la jornada de trabajo y sólo dentro del recinto o área para el cual fueron autorizados.
+Excepcionalmente, el Ministerio encargado de la Seguridad Pública, a través de la Subsecretaría de Prevención del Delito y previo informe de la autoridad fiscalizadora, podrá eximir el porte de armas de fuego en casos debidamente calificados. Para ello deberá considerar, especialmente, el nivel de riesgo de la entidad para la cual se desempeña.
+La entrega de armas y de municiones a los vigilantes privados y su restitución por éstos deberá ser registrada, de acuerdo con lo establecido en el reglamento de esta ley y las instrucciones que conforme a él imparta Carabineros de Chile. Asimismo, deberá consignarse en el registro el uso del arma de fuego y el hecho de haberse extraviado o perdido dicha arma o sus municiones.
+Todas las armas de fuego que posea la entidad deberán estar inscritas ante las autoridades señaladas en la ley N° 17.798 y su reglamento. La omisión de este requisito hará incurrir al representante legal de la entidad, al jefe de seguridad y al vigilante privado, en su caso, en las responsabilidades penales y administrativas que corresponda.
+Las labores de registro a que se refiere el inciso tercero, así como la conservación y custodia de las armas y municiones, serán realizadas por un encargado de armas de fuego, quien será designado para tales efectos por la entidad y a quien se le aplicarán los mismos requisitos establecidos en el artículo 25 para los vigilantes privados. El encargado de armas y el encargado de seguridad podrán ser una misma persona.
+El encargado de armas de fuego será el responsable de guardar las armas y municiones en un lugar cerrado dentro del mismo recinto en que éstas se utilizan o en otros que determine la autoridad fiscalizadora, el cual debe ofrecer garantías suficientes de seguridad e incorporarse en el respectivo estudio de seguridad.
+En caso de pérdida, extravío o robo de un arma de fuego o de municiones, la entidad obligada deberá informarlo o denunciarlo, en su caso, de conformidad con la Ley N° 17.798, sobre Control de Armas. En caso de no cumplir con este deber, la entidad responderá conforme con lo dispuesto en el artículo 94.
+Sin perjuicio del porte de armas de fuego, los empleadores deberán proporcionar a los vigilantes privados los elementos defensivos, esto es, aquellos que permitan resguardar su vida e integridad física, con el objeto de que puedan dar cumplimiento a sus funciones. Para ello deberán contar con autorización de la Subsecretaría de Prevención del Delito, previo informe de la autoridad fiscalizadora.
+El reglamento de la presente ley establecerá los elementos defensivos y de protección mínimos que portarán los vigilantes privados y los requisitos que deberán acreditarse para su correcto uso, según corresponda.
+
+Artículo 28
+Artículo 28.- Los vigilantes privados tendrán la obligación de usar uniforme y credencial, cuyas características serán determinadas en el reglamento respectivo. En todo caso, el uniforme deberá diferenciarse del utilizado por el personal de las Fuerzas Armadas, de Orden y Seguridad Pública y de Gendarmería de Chile.
+Los vigilantes privados no podrán usar el uniforme fuera del recinto o área en el que presten sus servicios.
+Excepcionalmente, en casos calificados, la Subsecretaría de Prevención del Delito, previo informe de la autoridad fiscalizadora, podrá eximir a determinados vigilantes privados de la obligación de usar uniforme en el ejercicio de sus funciones.
+El uniforme a que se refiere este artículo es de uso exclusivo de los vigilantes privados y deberá ser proporcionado gratuitamente por la entidad en que prestan sus servicios.
+Los vigilantes privados deberán contar con sistemas de registro audiovisual durante el ejercicio de sus funciones en los casos, forma y periodicidad que determine el reglamento, el que también deberá señalar sus características.
+Para ejercer las funciones de vigilante privado se entregará a éste una licencia personal e intransferible, que constará en una credencial emitida por la Subsecretaría de Prevención del Delito, de conformidad con lo establecido en el reglamento de esta ley. La credencial deberá ser portada en todo momento por el vigilante privado en el ejercicio de sus funciones.
+
+Artículo 29
+Artículo 29.- Las entidades empleadoras deberán contratar un seguro de vida en beneficio de cada vigilante privado, por el monto y en las condiciones que determine el reglamento. Lo anterior será sin perjuicio del cumplimiento de las obligaciones y pago de cotizaciones por accidentes del trabajo y enfermedades profesionales que deben efectuar en virtud de la Ley N° 16.744, que establece Normas sobre Accidentes del Trabajo y Enfermedades Profesionales.
+Asimismo, las entidades empleadoras deberán contar con un seguro de responsabilidad civil o un mecanismo de provisión de fondo de reserva para la reparación de daños a terceros que por dolo o negligencia pueda cometer el vigilante privado durante el cumplimiento de sus funciones.
+
+Artículo 33
+Artículo 33.- Se entenderá por empresas de seguridad privada aquellas que tengan por objeto suministrar bienes o prestar servicios destinados a la protección de personas, bienes y procesos productivos de las actividades descritas en el artículo 2 y dispongan de medios materiales, técnicos y humanos para ello.
+
+Artículo 34
+Artículo 34.- Sólo podrán actuar como empresas de seguridad privada las que se encuentren autorizadas por la Subsecretaría de Prevención del Delito y cumplan, a lo menos, con los siguientes requisitos:
+1. Estar legalmente constituidas como personas jurídicas de derecho privado y tener por objeto social alguna o algunas de las actividades de seguridad privada establecidas en el artículo 2.
+Cuando estas instituciones hayan sido formalizadas como Organismos Técnicos de Capacitación, quedarán exceptuadas del requisito de objeto social único de los artículos 12 y 21, número 1, de la ley N° 19.518, que fija Nuevo Estatuto de Capacitación y Empleo, y podrá ejercer ambos objetos  sociales.
+2. Contar con los medios humanos, de formación, financieros, materiales y técnicos que establezca el reglamento respectivo, en función de la naturaleza de las actividades para las que soliciten autorización y las características de los servicios que se prestan en relación con tales actividades.
+3. Suscribir los contratos de seguro en favor del personal que corresponda, de acuerdo a lo establecido en esta ley.
+4. Que los socios, administradores y representantes legales no hayan sido condenados por crimen o simple delito.
+5. Que los socios, administradores y representantes legales, en el caso de personas jurídicas, no se encuentren acusados por alguna de las conductas punibles establecidas en la Ley N° 17.798, sobre Control de Armas; en la Ley N° 20.000, que sanciona el Tráfico Ilícito de Estupefacientes y Sustancias Sicotrópicas; en la ley N° 18.314, que determina conductas terroristas y fija su penalidad; en la Ley N° 19.913, que crea la Unidad de Análisis Financiero y modifica diversas disposiciones en materia de lavado y blanqueo de activos; en la Ley N° 12.927, sobre Seguridad del Estado; en la Ley N° 20.066, de Violencia Intrafamiliar, en los artículos 141, 142, 150 A, 150 B, 361, 362, 363, 365 bis, 366, 366 bis, 372 bis, 390, 390 bis, 390 ter, 391 y 411 quáter del Código Penal, u otras asociadas al crimen organizado que se encuentren tipificadas en el Párrafo 10 del Título VI del Libro II del mismo Código o en otras leyes.
+6. Que los socios, administradores y representantes legales, en el caso de personas jurídicas, no hubiesen dejado de pertenecer a las Fuerzas Armadas, de Orden y Seguridad Pública o a Gendarmería de Chile, como consecuencia de la aplicación de una medida disciplinaria en los últimos cinco años, salvo en caso que los hechos que dieron origen a esta medida sean posteriormente desestimados mediante sentencia judicial firme o ejecutoriada.
+7. No haber sido condenada la persona jurídica por delitos contemplados en la ley N° 20.393, que establece la responsabilidad penal de las personas jurídicas en los delitos que indica.
+Sin perjuicio de los requisitos señalados en el inciso anterior, se prohíbe a las empresas de seguridad privada utilizar un nombre o razón social igual o similar al de los órganos públicos, especialmente el del Ministerio encargado de la Seguridad Pública, el de las Fuerzas Armadas y Fuerzas de Orden y Seguridad Pública, el del Ministerio Público o cualquier otro que induzca a error respecto de su naturaleza privada.
+En caso de incumplir cualquiera de los requisitos anteriores no podrá entregarse autorización alguna.
+El reglamento de la presente ley establecerá la forma y procedimientos para otorgar la autorización a que se refiere el inciso primero.
+
+Artículo 46
+Artículo 46.- Las personas naturales que presten servicios en materias de seguridad privada deberán cumplir con los siguientes requisitos generales:
+1. Ser mayor de edad.
+2. Tener condiciones físicas y psíquicas compatibles con las labores por desempeñar. El reglamento determinará el modo y periodicidad en que deberán acreditarse estas aptitudes, según el tipo de actividad que realicen, considerando criterios de inclusión y no discriminación.
+3. Haber cursado la educación media o su equivalente. NOTA
+4. No haber sido condenado por crimen o simple delito.
+5. No haber sido condenado por actos de violencia intrafamiliar de competencia de los jueces de familia, de acuerdo con la ley N° 20.066.
+6. No haber sido acusado por alguna de las conductas punibles establecidas en la Ley N° 17.798, sobre Control de Armas; en la Ley N° 20.000, que sanciona el Tráfico Ilícito de Estupefacientes y Sustancias Sicotrópicas; en la ley N° 18.314, que determina conductas terroristas y fija su penalidad; en la ley N° 19.913, que crea la Unidad de Análisis Financiero y modifica diversas disposiciones en materia de lavado y blanqueo de activos; en la Ley N° 12.927, sobre Seguridad del Estado; en la Ley N° 20.066, de Violencia Intrafamiliar, en los artículos 141, 142, 150 A, 150 B, 361, 362, 363, 365 bis, 366, 366 bis, 372 bis, 390, 390 bis, 390 ter, 391 y 411 quáter del Código Penal, u otras asociadas al crimen organizado que se encuentren tipificadas en el Párrafo 10 del Título VI del Libro II del mismo Código o en otras leyes.
+7. No haber dejado de pertenecer a las Fuerzas Armadas, Fuerzas de Orden y Seguridad Pública o a Gendarmería de Chile por sanciones o medidas disciplinarias, salvo en caso que los hechos que dieren origen a esta medida sean posteriormente desestimados mediante sentencia judicial.
+8. No haber sido sancionado en los últimos cinco años por alguna de las infracciones gravísimas o graves establecidas en esta ley.
+9. No haber sido sancionado conforme a la ley N° 19.327, de derechos y deberes en los espectáculos de fútbol profesional, y su reglamento.
+10. No haber ejercido funciones de supervisión, control o fiscalización de las entidades, servicios o actividades de seguridad privada ni de su personal, como integrante de Carabineros de Chile, de las autoridades marítima o aeronáutica, ni del Ministerio encargado de la Seguridad Pública, en los dos años anteriores a la solicitud de autorización.
+11. Aprobar los exámenes de los cursos de capacitación que correspondan, de conformidad a lo señalado en esta ley.
+12. Comprender y comunicarse en idioma castellano.
+13. Haber cumplido con lo dispuesto en el decreto ley N° 2.306, que dicta normas sobre reclutamiento y movilización de las Fuerzas Armadas, cuando fuera procedente.
+14. En caso de ser extranjero, contar con residencia definitiva, de conformidad a lo dispuesto en la ley N° 21.325, de Migración y Extranjería y su reglamento.
+Las personas naturales que presten servicios de seguridad privada deberán acreditar ante el empleador el cumplimiento de los requisitos establecidos en los numerales 4 y 5 del inciso precedente mediante certificado de antecedentes, expedido en los términos dispuestos en el inciso final del artículo 38 de la ley N° 18.216, que establece penas que indica como sustitutivas a las penas privativas o restrictivas de libertad. Por su parte, los requisitos establecidos en los numerales 6 y 9 serán acreditados a través de declaración jurada simple. Todos estos requisitos deberán actualizarse anualmente.
+Asimismo, el requisito establecido en el numeral 13 se acreditará con el certificado respectivo de la Dirección General de Movilización Nacional.
+Los demás requisitos deberán ser acreditados cada vez que sea requerido por el empleador, mediante los documentos idóneos para tales efectos.
+Para todos los efectos se entenderá que el cumplimiento de estos numerales son obligaciones del contrato de trabajo. El incumplimiento de los requisitos establecidos en los numerales 4, 5 y 6 permitirán poner término a la relación laboral de conformidad al número 7 del artículo 160 del Código del Trabajo.
+Sin perjuicio de lo dispuesto en los incisos precedentes, las personas naturales que presten servicios en materia de seguridad privada deberán cumplir los requisitos específicos que señalen esta ley y su reglamento.
+NOTA
+El número 1 del artículo primero de la Resolución 2517 Exenta, Seguridad Pública, publicada el 20.12.2025, dispone fijar la interpretación al número 3 del artículo 46 de la presente norma, señalando que el requisito establecido en el citado artículo incluye como equivalente al haber cursado la educación media la aprobación del examen de equivalencia de estudios para fines laborales regulado en el decreto exento N° 2.272, de 2007, del Ministerio de Educación, que aprueba Procedimientos para el reconocimiento de estudios de enseñanza básica y enseñanza media humanístico-científica y técnico-profesional y de modalidad educación de adultos y de educación especial.
+
+Artículo 47
+Artículo 47.- Todo empleador deberá acreditar anualmente ante la Subsecretaría de Prevención del Delito el cumplimiento de los requisitos generales y específicos contemplados en esta ley, en la forma que determine el reglamento.
+Las personas naturales que ejerzan funciones de seguridad privada deberán informar al empleador, en el más breve plazo, la pérdida por causa sobreviniente de cualquiera de los requisitos generales o específicos establecidos en esta ley, en cuyo caso deberá suspender sus funciones inmediatamente. A su vez, el empleador deberá informar esta circunstancia a la Subsecretaría de Prevención del Delito, la que podrá revocar la autorización respectiva, salvo que estos requisitos puedan subsanarse, en cuyo caso podrá, en su lugar, fijar un plazo no inferior a treinta días para acreditar su cumplimiento. Lo anterior, se llevará a cabo mediante el procedimiento establecido en el párrafo 4 del Título VI.
+
+Artículo 48
+Artículo 48.- Las personas naturales y jurídicas reguladas en este Título quedarán sujetas a las siguientes prohibiciones:
+1. Prestar o hacer publicidad de servicios de seguridad privada sin contar con la autorización para actuar como empresa de seguridad privada.
+2. Desarrollar cualquier tipo de investigación sobre hechos que revistan caracteres de delito, incluyendo interceptación de comunicaciones, realizar interrogatorios o registrar vestimentas. Asimismo, no podrán grabar ni almacenar imágenes, audios o datos del recinto o establecimiento donde prestan servicios, para fines distintos de seguridad.
+3. Intervenir, en el ejercicio de sus funciones de seguridad privada, en conflictos políticos, laborales, celebración de reuniones o manifestaciones.
+4. Suministrar información a terceros, salvo las excepciones legales, acerca de personas, bienes y procesos productivos obtenidos con motivo u ocasión de la prestación del servicio.
+5. Poseer o almacenar armas sin la autorización respectiva, la que, en todo caso, deberá estar siempre en concordancia con la legislación vigente.
+6. Las demás que determine el reglamento.
+
+Artículo 49
+Artículo 49.- Guardia de seguridad es aquel que, sin ser vigilante privado, otorga personalmente protección a personas y bienes, dentro de un recinto o área determinada y previamente delimitada.
+El empleador de los guardias de seguridad deberá contratar un seguro de vida en su favor, por el monto y en las condiciones que determine el reglamento y según el nivel de riesgo de sus actividades.
+
+Artículo 50
+Artículo 50.- Para ejercer las labores de guardia de seguridad se deberán cumplir los requisitos establecidos en el artículo 46 y haber aprobado un curso de capacitación, de conformidad con lo dispuesto en esta ley y su reglamento.
+Los interesados deberán estar autorizados por la Subsecretaría de Prevención del Delito mediante resolución fundada.
+La autorización referida tendrá una vigencia de cuatro años, y podrá ser renovada por la Subsecretaría de Prevención del Delito por el mismo período u otro menor. En virtud de lo anterior, se entregará una licencia personal e intransferible que constará en una credencial emitida por la Subsecretaría de Prevención del Delito. Dicha credencial deberá ser portada en todo momento por el guardia de seguridad en el ejercicio de sus funciones.
+
+Artículo 51
+Artículo 51.- Cualquier persona, natural o jurídica, podrá contratar guardias para brindar seguridad a un grupo de viviendas, edificios, conjunto residencial, locales comerciales u otros que, por su naturaleza, requieran de este tipo de servicios. Para lo anterior, el o los interesados podrán contratar los servicios de una empresa debidamente acreditada que provea personal para estos fines, o bien, contratar directamente los servicios de una o más personas que cuenten con la licencia que les permite ejercer esta labor.
+Los servicios que desarrollen los guardias de seguridad deberán comunicarse a la autoridad fiscalizadora y a la Subsecretaría de Prevención del Delito, y especificarán en una directiva de funcionamiento, el lugar donde se realizarán y la individualización de la persona que presta el servicio.
+La directiva de funcionamiento podrá ser aprobada o modificada por la Subsecretaría de Prevención del Delito, previo informe de la autoridad fiscalizadora. En este último caso, el o los interesados en el servicio deberán realizar las modificaciones solicitadas en un plazo de diez días o en el plazo prudencial que determine la Subsecretaría.
+El reglamento de la presente ley definirá las características y demás contenidos de la directiva de funcionamiento, así como el procedimiento para su aprobación.
+
+Artículo 52
+Artículo 52.- Los guardias de seguridad deberán usar un uniforme cuyo detalle y características serán determinados por el reglamento de la presente ley. Excepcionalmente, en casos calificados, la Subsecretaría de Prevención del Delito, previo informe de la autoridad fiscalizadora, podrá eximir a determinados guardias de seguridad de la obligación de usar uniforme en el ejercicio de sus funciones.
+
+Artículo 53
+Artículo 53.- Los empleadores deberán proporcionar a los guardias de seguridad privada elementos defensivos que permitan resguardar su vida e integridad física con el objeto de que puedan cumplir sus funciones. Para ello, deberán contar con autorización de la Subsecretaría de Prevención del Delito, previo informe de la autoridad fiscalizadora.
+El reglamento de la presente ley establecerá los elementos defensivos y de protección mínimos con los que contarán los guardias de seguridad privada y los requisitos que deberán acreditarse para su correcto uso, según corresponda.
+Con todo, los empleadores no podrán proporcionar ningún tipo de máquina, instrumento, utensilio u objeto cortante o punzante, armas de fuego y demás elementos regulados en la ley N° 17.798, sobre Control de Armas y su reglamento complementario.
+El uso y porte de los elementos señalados en el inciso precedente está prohibido para todo guardia de seguridad, sin distinción.
+
+Artículo 54
+Artículo 54.- Los guardias de seguridad deberán cursar capacitaciones, las que dependerán de los distintos niveles de riesgo que enfrentan. Asimismo, podrán tener especializaciones según el tipo de actividad de seguridad privada que ejerzan.
+Los guardias de seguridad que sean clasificados para enfrentar un nivel de riesgo alto deberán contar con sistemas de registro audiovisual durante el ejercicio de sus funciones en los casos, la forma y periodicidad que determine el reglamento, el que también definirá sus características. No podrán usar estos sistemas de registro audiovisual fuera del recinto o área en el que presten sus servicios ni del horario en que ejerzan su labor.
+Los tipos de especializaciones y su acreditación serán establecidos por el reglamento de la presente ley.
+
+Artículo 59
+Artículo 59.- Se entenderá por capacitadores a los profesionales y técnicos autorizados por la Subsecretaría de Prevención del Delito dedicados a la instrucción, formación, capacitación y perfeccionamiento de vigilantes privados, guardias de seguridad, porteros, nocheros, rondines, conserjes, en su caso, u otros de similar carácter.
+Para desempeñar sus funciones, los capacitadores deberán contar con una aprobación de la Subsecretaría de Prevención del Delito, previo informe de la autoridad fiscalizadora, para lo cual deberán cumplir con los requisitos señalados en el artículo 46, sin perjuicio del nivel de educación profesional y técnico en materias inherentes a seguridad privada requeridos por el reglamento.
+
+Artículo 60
+Artículo 60.- Los cursos de capacitación a que se refiere este párrafo finalizarán con un examen ante Carabineros de Chile. Una vez aprobado, la Subsecretaría de Prevención del Delito entregará una certificación que acreditará haber cumplido con los requisitos correspondientes.
+La certificación deberá ser otorgada por la Subsecretaría de Prevención del Delito una vez que la persona haya terminado los cursos de capacitación necesarios para la especialización que esté cursando. Esta certificación deberá ser emitida a través de una plataforma informática administrada por la Subsecretaría de Prevención del Delito e interconectada con las autoridades fiscalizadoras. Las características de funcionamiento de dicha plataforma serán señaladas en el reglamento de esta ley.
+La certificación de vigilantes privados tendrá una vigencia de dos años. Dentro de dicho plazo no será necesario rendir el curso nuevamente, aunque el vigilante privado cambie de empleador.
+La obtención de la certificación de guardias de seguridad, porteros, nocheros, rondines, conserjes, en su caso, y demás personas naturales que ejerzan actividades de seguridad privada tendrá una vigencia de cuatro años. Dentro de dicho plazo no será necesario rendir el curso nuevamente, aunque la persona natural cambie de empleador.
+Para obtener la certificación del presente artículo el personal que ejerza actividades de seguridad privada deberá ser capacitado, al menos, en las siguientes materias: respeto y promoción de los derechos humanos, privacidad y uso de datos personales, correcto uso de elementos defensivos cuando corresponda, legislación sobre seguridad privada, primeros auxilios, probidad, no discriminación y perspectiva de género.
+Con todo, cuando los capacitadores sean contratados por una institución de las señaladas en el artículo anterior, que ya esté autorizada por la Subsecretaría de Prevención del Delito, no será necesaria una autorización adicional para el capacitador, sin perjuicio del deber del empleador de requerir, para su contratación, el cumplimiento de los requisitos del artículo 46.
+
+Artículo 81
+Artículo 81.- Al Ministerio encargado de la Seguridad Pública, a través de la Subsecretaría de  Prevención del Delito, le corresponderá autorizar, regular, supervigilar, controlar y ejercer las demás  atribuciones legales en materia de seguridad privada. Para ello, actuará como órgano rector, y velará por  que las personas naturales y jurídicas reguladas en esta ley cumplan su rol preventivo, coadyuvante y  complementario de la seguridad pública. En cumplimiento de lo anterior, las autoridades fiscalizadoras  reguladas en la presente ley colaborarán con la Subsecretaría de Prevención del Delito, y llevarán a  cabo sus labores de conformidad a las instrucciones que ésta les imparta.
+
+Artículo 82
+Artículo 82.- La Subsecretaría de Prevención del Delito asesorará y colaborará con el  Ministro o la Ministra encargada de la Seguridad Pública en el cumplimiento de sus funciones  y atribuciones en materia de seguridad privada y podrá ejercerlas directamente, sin perjuicio de  aquellas que le correspondan al Ministro o la Ministra en forma directa, de conformidad a lo  establecido en esta ley.
+Los servidores públicos que se desempeñen en la Subsecretaría referida deberán guardar secreto o  reserva de la información de que tomen conocimiento en el ejercicio de sus funciones. Esta obligación  se mantendrá hasta por cuatro años después de que hayan cesado en su cargo. Aquellos que incumplan  con este deber serán sancionados según lo dispuesto en el inciso segundo del artículo 246 del Código  Penal, sin perjuicio de la responsabilidad administrativa o civil que corresponda.
+
+Artículo 83
+Artículo 83.- La Subsecretaría de Prevención del Delito, en el ámbito de esta ley, tendrá las  siguientes atribuciones o facultades:
+1. Aplicar e interpretar administrativamente las disposiciones de esta ley y sus reglamentos e  impartir instrucciones de general aplicación en las materias de su competencia, sin perjuicio de las  atribuciones propias del Ministerio encargado de la Seguridad Pública.
+2. Proponer al Ministerio encargado de la Seguridad Pública políticas sobre seguridad privada,  así como las modificaciones legales y reglamentarias en esa materia.
+3. Actuar como órgano de consulta, análisis, comunicación y coordinación en materias relacionadas con la seguridad privada.
+4. Requerir a los demás órganos del Estado los informes que estime necesarios para el cumplimiento de sus funciones.
+5. Determinar entidades obligadas, de acuerdo a lo dispuesto en el Título II.
+6. Aprobar o solicitar modificaciones al estudio de seguridad de las entidades obligadas establecidas en el Título II y aprobar sus actualizaciones, en conformidad con lo dispuesto en esta ley.
+7. Otorgar, denegar, suspender y revocar autorizaciones a personas naturales o jurídicas que presenten servicios de seguridad privada en conformidad con esta ley y demás normas sobre la materia.
+En el ejercicio de esta atribución la Subsecretaría podrá suspender temporalmente o revocar la autorización para ejercer actividades de seguridad privada, así como ordenar la clausura temporal o definitiva de los recintos donde éstas funcionen, de conformidad a lo dispuesto en el párrafo 4 del Título VI.
+8. Fijar y aprobar los contenidos de la capacitación a que debe someterse el personal de seguridad  privada, previa propuesta de la autoridad fiscalizadora y de conformidad a lo establecido en el reglamento  de la presente ley.
+9. Mantener un registro actualizado de las entidades obligadas, de las personas naturales y jurídicas autorizadas a prestar servicios de seguridad privada, de las empresas de alarmas y proveedoras de  servicios, de organizadores y productores de eventos masivos y de las sanciones que afecten a cualquiera  de éstas, de conformidad con lo establecido en el artículo siguiente.
+10. Supervigilar y controlar las labores desarrolladas por las autoridades fiscalizadoras de esta ley.
+11. Elaborar un plan de fiscalización en materia de seguridad privada, en el que se establezcan criterios uniformes que permitan a las autoridades fiscalizadoras desarrollar adecuadamente sus labores.
+12. Requerir el auxilio de la fuerza pública cuando ello sea necesario para el cumplimiento de  sus funciones.
+13. Ejercer las demás atribuciones o facultades que le encomienden las leyes.
+
+Artículo 86
+Artículo 86.- Carabineros de Chile será la autoridad fiscalizadora en materia de seguridad privada  y estará encargada de supervisar el cumplimiento de las normas legales y reglamentarias en esta  materia, bajo la dirección de la Subsecretaría de Prevención del Delito, y de acuerdo a las instrucciones  generales y específicas que ésta imparta.
+Tratándose de entidades ubicadas en recintos portuarios, aeropuertos u otros espacios sometidos  al control de la autoridad militar, marítima o aeronáutica, las atribuciones que se otorgan en esta ley a  Carabineros de Chile serán ejercidas por la autoridad institucional que corresponda.
+
+Artículo 114
+Artículo 114.- Los plazos que establece esta ley son de días hábiles.
+
+Artículo 115
+Artículo 115.- Deróganse el decreto ley N° 3.607, de 1981, que deroga decreto ley N° 194, de  1973, y establece nuevas normas sobre funcionamiento de vigilantes privados, y la ley N° 19.303, que establece obligaciones a entidades que indica, en materia de seguridad de las personas, así como sus reglamentos complementarios.
+
+Artículo primero Transitorio
+Artículo primero.- Esta ley entrará en vigencia seis meses después de la publicación en el Diario  Oficial del último de sus reglamentos complementarios, con excepción de lo dispuesto en los artículos  transitorios siguientes.
+En virtud de lo dispuesto en el inciso precedente, el Ministerio encargado de la Seguridad Pública,  dentro del plazo de un año contado desde la publicación de esta ley, deberá dictar el reglamento referido  en esta ley además del reglamento sobre eventos masivos mencionado en el Título IV.
+
+Artículo segundo Transitorio
+Artículo segundo.- Las empresas de transporte de valores, las instituciones bancarias y financieras  de cualquier naturaleza, las empresas de apoyo al giro bancario que reciban o mantengan dineros en  sus operaciones y los establecimientos de venta de combustibles obligados deberán presentar el primer  estudio de seguridad dentro del plazo de dieciocho meses contados desde la entrada en vigencia de esta ley, aun cuando  tengan estudios de seguridad vigentes de conformidad a la normativa actual.
+En la tramitación de los estudios de seguridad señalados en el inciso precedente, no operará el plazo dispuesto en el inciso tercero del artículo 15 de la presente ley. En estos casos, la Subsecretaría de Prevención del Delito deberá pronunciarse sobre estos instrumentos en un plazo máximo de noventa días hábiles.
+Con todo, las demás entidades que se encuentren obligadas de conformidad con las disposiciones  del decreto ley N° 3.607, y la ley N° 19.303 se mantendrán en tal calidad durante un período máximo  de dos años contado desde la entrada en vigencia de esta ley, plazo dentro del cual la Subsecretaría  de Prevención del Delito, previo informe de la autoridad fiscalizadora, deberá determinarlas como  entidades obligadas, mediante la resolución correspondiente, en base a los criterios establecidos en  el artículo 8, cuando corresponda. En el tiempo intermedio, mantendrán su vigencia el decreto ley  N° 3.607, de 1981, la ley N° 19.303 y sus reglamentos complementarios exclusivamente respecto a  las normas que regulan a estas entidades.
+
+Artículo tercero Transitorio
+Artículo tercero.- Las autorizaciones otorgadas a las personas naturales y jurídicas para ejercer  actividades de seguridad privada y que se encuentren vigentes al momento de la entrada en vigencia  de esta ley, se mantendrán hasta la fecha de su vencimiento conforme con la legislación vigente a la  época de su otorgamiento.
+Sin perjuicio de lo anterior, los vigilantes privados, guardias de seguridad, porteros, nocheros, rondines, conserjes en los casos que proceda u otros de similar carácter, mantendrán la vigencia de su última autorización obtenida conforme al decreto ley N° 3.607 y sus reglamentos complementarios, una vez vencida, por un máximo de dieciocho meses contados desde la entrada en vigor de la presente ley, periodo dentro del cual deberán obtener la respectiva autorización. Esta norma no será aplicable a aquellas autorizaciones que vencieren después de este período, las que deberán regirse por lo dispuesto en el inciso precedente.
+Las nuevas autorizaciones, de conformidad a esta ley, continuarán siendo emitidas por las  Prefecturas de Carabineros de Chile mientras no se encuentre en funcionamiento la plataforma  informática, administrada por la Subsecretaría de Prevención del Delito e interconectada con las  autoridades fiscalizadoras para emitir las certificaciones, de acuerdo a lo dispuesto en el artículo 60.  Dicha plataforma deberá estar operativa en el plazo máximo de un año desde que entre en vigencia  esta ley, fecha a partir de la cual la Subsecretaría de Prevención del Delito comenzará a emitir las  autorizaciones correspondientes.
