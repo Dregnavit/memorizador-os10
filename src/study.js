@@ -18,8 +18,9 @@ export function nextSRS(s, q, now = Date.now()) {
 }
 export const level = (s) => (!s || !s.reps ? 0 : s.interval < 3 ? 1 : s.interval < 7 ? 2 : s.interval < 21 ? 3 : 4);
 export const buildCards = (temario) => temario.flatMap((c) => c.preguntas.map((p) => ({ ...p, cat: c.id, category: c.categoria })));
-export function chooseQuestion(pool, random = Math.random) {
-  return { card: pool[Math.floor(random() * pool.length)], mode: Math.floor(random() * 3) };
+// Follow the order of the temario; randomize only the exercise type.
+export function chooseQuestion(pool, index, random = Math.random) {
+  return { card: pool[index] ?? null, mode: Math.floor(random() * 3) };
 }
 export function typingResult(answer, typed) {
   const A = words(answer), B = words(typed);
