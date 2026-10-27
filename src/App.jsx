@@ -243,7 +243,7 @@ const CSS = `
   --shadow: 0 8px 24px rgba(0,0,0,0.3);
   font-family: 'Sora', system-ui, sans-serif;
   background: radial-gradient(circle at 50% -20%, #15203A 0%, var(--bg) 60%);
-  color: var(--fg); min-height: 100vh; padding: 24px;
+  color: var(--fg); width: 100%; min-width: 0; min-height: 100svh; padding: clamp(12px, 2.7vw, 48px);
 }
 
 .app.light {
@@ -278,18 +278,20 @@ const CSS = `
 h1, h2, h3, h4, p, small { color: var(--fg) !important; }
 .app.medieval h1, .app.medieval h2, .app.medieval h3 { font-family: 'CloisterBlack', serif; font-weight: normal; }
 
-header { display: flex; justify-content: space-between; align-items: center; max-width: 960px; margin: 0 auto 32px; }
-header h1 { font-family: 'Fraunces', serif; font-size: 2rem; }
-.app.medieval header h1 { font-size: 2.5rem; }
+header { display: flex; justify-content: space-between; align-items: center; gap: 16px; width: 100%; margin: 0 auto clamp(16px, 2.7vw, 32px); }
+header > div { min-width: 0; }
+header h1 { font-family: 'Fraunces', serif; font-size: clamp(1.6rem, 2.7vw, 2.75rem); line-height: 1.16; margin: 0 0 6px; overflow-wrap: anywhere; }
+.app.medieval header h1 { font-size: clamp(1.8rem, 3vw, 3rem); }
+header > button { flex-shrink: 0; }
 
-main { max-width: 960px; margin: 0 auto; animation: fadeIn 0.4s ease; }
+main { width: 100%; min-width: 0; margin: 0 auto; animation: fadeIn 0.4s ease; }
 @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
 
-.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; margin-top: 24px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: clamp(12px, 1.6vw, 24px); margin-top: clamp(16px, 2.2vw, 28px); }
 .card {
   background: var(--card); border: 1px solid var(--line); border-radius: 12px;
-  padding: 24px; box-shadow: var(--shadow);
-  display: flex; flex-direction: column; gap: 12px;
+  padding: clamp(16px, 2vw, 28px); box-shadow: var(--shadow); min-width: 0;
+  overflow-wrap: anywhere; display: flex; flex-direction: column; gap: 12px;
 }
 .grid .card { transition: transform 0.2s, background 0.2s, border-color 0.2s, box-shadow 0.2s; }
 .grid .card:hover { background: var(--card-hover); transform: translateY(-4px); border-color: var(--sun); box-shadow: 0 12px 30px rgba(0,0,0,0.15); }
@@ -299,10 +301,10 @@ main { max-width: 960px; margin: 0 auto; animation: fadeIn 0.4s ease; }
 .app.shade .sun circle[r="11"] { filter: drop-shadow(0 0 8px var(--sun)); }
 .app.dark .sun circle[r="11"] { filter: drop-shadow(0 0 6px var(--sun)); }
 
-.row { display: flex; flex-wrap: wrap; gap: 10px; margin: 16px 0 0; justify-content: inherit; }
+.row { display: flex; flex-wrap: wrap; gap: 10px; margin: 16px 0 0; justify-content: inherit; min-width: 0; }
 button {
   background: var(--accent); color: var(--accent-text) !important; border: none; border-radius: 8px;
-  padding: 10px 18px; cursor: pointer; font: inherit; font-weight: 600;
+  padding: 10px 18px; min-height: 44px; cursor: pointer; font: inherit; font-weight: 600; white-space: normal;
   transition: filter 0.2s, transform 0.1s, box-shadow 0.2s;
 }
 button:hover { filter: brightness(1.15); transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.2); }
@@ -315,7 +317,8 @@ button:disabled { opacity: 0.4; cursor: not-allowed; transform: none; box-shadow
 .chip:hover { border-color: var(--sun); background: var(--card-hover); transform: translateY(-2px); box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
 
 .mono { font-family: 'JetBrains Mono', ui-monospace, monospace; line-height: 1.9; word-break: break-word; font-size: 1.1em; color: var(--sun) !important; }
-.flow { line-height: 2.2; font-size: 1.1em; }
+.flow { line-height: 2.2; font-size: 1.1em; min-width: 0; overflow-wrap: anywhere; }
+.flow input { max-width: min(100%, 14rem); min-width: 3rem; vertical-align: middle; margin: 3px 3px 3px 0; }
 
 input, textarea {
   font: inherit; background: var(--bg); color: var(--fg); border: 1px solid var(--line);
@@ -327,4 +330,13 @@ input:focus, textarea:focus { border-color: var(--sun); box-shadow: 0 0 0 2px rg
 .good { color: var(--good) !important; border-bottom: 2px solid var(--good); font-weight: 600; }
 .bad { color: var(--bad) !important; border-bottom: 2px solid var(--bad); font-weight: 600; }
 .extra { color: var(--line) !important; text-decoration: line-through; font-style: italic; }
+
+@media (max-width: 600px) {
+  header { flex-direction: column; align-items: center; text-align: center; gap: 12px; }
+  header > button { max-width: 100%; }
+  .row { gap: 8px; }
+  .row > button { flex: 1 1 120px; }
+  input, textarea { font-size: 16px; max-width: 100%; }
+  .mono { font-size: 1rem; }
+}
 `;
