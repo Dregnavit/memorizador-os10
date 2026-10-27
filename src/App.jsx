@@ -105,15 +105,28 @@ function ReorderMode({ c, done }) {
 
 function Exam({ list, onGrade, onExit }) {
   const pool = list?.length ? list : CARDS;
-  const [selection, setSelection] = useState(() => chooseQuestion(pool));
   const [n, setN] = useState(0), [score, setScore] = useState(null);
+  const [selection, setSelection] = useState(() => chooseQuestion(pool, 0));
   const c = selection.card;
   const done = (s) => { setScore(s); onGrade(c.id, s >= 0.95 ? 5 : s >= 0.8 ? 4 : s >= 0.5 ? 3 : 1); };
-  const next = () => { setScore(null); setN(n + 1); setSelection(chooseQuestion(pool)); };
+  const next = () => {
+    const following = n + 1;
+    setScore(null);
+    setN(following);
+    setSelection(chooseQuestion(pool, following));
+  };
+
+  if (!c) return (
+    <div className="card center">
+      <h2>¡Examen terminado!</h2>
+      <p>Has recorrido las {pool.length} preguntas en el orden del temario.</p>
+      <button onClick={onExit}>Volver al inicio</button>
+    </div>
+  );
 
   return (
     <div className="card">
-      <small>{c.category}</small>
+      <small>Pregunta {n + 1} de {pool.length} · {c.category}</small>
       <h2>{c.q}</h2>
       <Fundamento fuentes={c.fuentes} />
       {selection.mode === 0 && <ClozeMode key={n} c={c} done={done} />}
@@ -121,7 +134,7 @@ function Exam({ list, onGrade, onExit }) {
       {selection.mode === 2 && <ReorderMode key={n} c={c} done={done} />}
       {score !== null && <p>Puntaje: {Math.round(score * 100)}%</p>}
       <div className="row">
-        {score !== null && <button onClick={next}>Otra pregunta</button>}
+        {score !== null && <button onClick={next}>{n === pool.length - 1 ? "Finalizar examen" : "Siguiente pregunta"}</button>}
         <button className="theme-btn" onClick={onExit}>Salir</button>
       </div>
     </div>
