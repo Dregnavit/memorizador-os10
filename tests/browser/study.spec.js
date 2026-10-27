@@ -41,7 +41,7 @@ for (const [mode, random] of [[0, 0.01], [1, 0.4], [2, 0.99]]) {
   test(`exam mode ${mode} keeps its question when grading, and resets the next exercise`, async ({ page }) => {
     await page.addInitScript((value) => { Math.random = () => value; }, random);
     await page.goto('/');
-    const expectedCard = buildCards(TEMARIO)[Math.floor(random * 103)];
+    const expectedCard = buildCards(TEMARIO)[0];
     await page.getByRole('button', { name: 'Examinar', exact: true }).first().click();
     await expect(page.getByRole('heading', { level: 2 })).toHaveText(expectedCard.q);
     if (mode === 0) {
@@ -62,10 +62,12 @@ for (const [mode, random] of [[0, 0.01], [1, 0.4], [2, 0.99]]) {
       await expect(page.getByText('Puntaje: 100%')).toBeVisible();
     }
     await expect(page.getByRole('heading', { level: 2 })).toHaveText(expectedCard.q);
-    await page.getByRole('button', { name: 'Otra pregunta', exact: true }).click();
+    await page.getByRole('button', { name: 'Siguiente pregunta', exact: true }).click();
+    await expect(page.getByRole('heading', { level: 2 })).toHaveText(buildCards(TEMARIO)[1].q);
+    await expect(page.getByText('Pregunta 2 de 103', { exact: false })).toBeVisible();
     await expect(page.getByText('Puntaje:', { exact: false })).toHaveCount(0);
     if (mode === 1) await expect(page.locator('textarea')).toHaveValue('');
-    if (mode === 2) await expect(page.locator('.chip')).toHaveCount(words(expectedCard.a).length);
+    if (mode === 2) await expect(page.locator('.chip')).toHaveCount(words(buildCards(TEMARIO)[1].a).length);
   });
 }
 
@@ -73,8 +75,23 @@ test('category exam only selects questions from that category', async ({ page })
   await page.goto('/');
   const category = page.locator('.grid > .card').filter({ has: page.getByRole('heading', { name: 'Legítima Defensa', exact: true }) });
   await category.getByRole('button', { name: 'Examinar', exact: true }).click();
-  const text = await page.getByRole('heading', { level: 2 }).textContent();
-  expect(TEMARIO.find((c) => c.id === 'legitima-defensa').preguntas.map((p) => p.q)).toContain(text);
+  const questions = TEMARIO.find((c) => c.id === 'legitima-defensa').preguntas;
+  await expect(page.getByRole('heading', { level: 2 })).toHaveText(questions[0].q);
+  await expect(page.getByText(`Pregunta 1 de ${questions.length}`, { exact: false })).toBeVisible();
+});
+
+test('phone, tablet and desktop widths have no horizontal page overflow', async ({ page }) => {
+  for (const width of [320, 390, 768, 1440, 1920]) {
+    await page.setViewportSize({ width, height: 900 });
+    await page.goto('/');
+    const dimensions = await page.evaluate(() => ({
+      viewport: document.documentElement.clientWidth,
+      content: document.documentElement.scrollWidth,
+      root: document.getElementById('root').getBoundingClientRect().width,
+    }));
+    expect(dimensions.content).toBeLessThanOrEqual(dimensions.viewport + 1);
+    expect(dimensions.root).toBeGreaterThanOrEqual(width - 1);
+  }
 });
 
 test('corrupt saved data remains untouched and a warning is visible after studying', async ({ page }) => {
