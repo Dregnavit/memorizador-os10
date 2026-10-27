@@ -32,13 +32,16 @@ test('typing handles repeated words, punctuation, missing and extra words', () =
   assert.deepEqual(typingResult('uno dos', 'uno otro dos').extra, ['otro']);
 });
 
-test('exam selection stays in the selected category and supports all three modes', () => {
+test('exam respects the source order inside each category and varies the exercise', () => {
   for (const category of TEMARIO) {
     const pool = buildCards([category]);
-    for (const random of [0, 0.4, 0.99]) {
-      const selection = chooseQuestion(pool, () => random);
-      assert.equal(selection.card.cat, category.id);
-      assert.equal(selection.mode, Math.floor(random * 3));
+    for (let i = 0; i < pool.length; i++) {
+      for (const random of [0, 0.4, 0.99]) {
+        const selected = chooseQuestion(pool, i, () => random);
+        assert.equal(selected.card.id, pool[i].id);
+        assert.equal(selected.mode, Math.floor(random * 3));
+      }
     }
+    assert.equal(chooseQuestion(pool, pool.length).card, null);
   }
 });
